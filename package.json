@@ -1,0 +1,11 @@
+{
+  "name": "arduteensy",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Arduino and Teensy educational simulation lab",
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/engine.test.mjs",
+    "check": "node --check dist/app.js && node --check dist/engine.js"
+  }
+}
